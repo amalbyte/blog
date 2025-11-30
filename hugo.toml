@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hello-friend-ng"
+pagination.pagerSize = 10
+
+[params]
+homeSubtitle = "learning more about Windows Security :)"
+
+[taxonomies]
+category = "blog"
+tag = "tags"
+series = "series"
+
+[languages]
+  [languages.en]
+  title = "amalbyte"
+  copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+  subtitle = "A simple theme for Hugo"
+
+  [languages.en.params.logo]
+  logoText = "amalbyte"
+  logoHomeLink = "/"
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 1
+
+[[menu.main]]
+identifier = "ttps"
+name = "TTPs"
+url = "/ttps"
+weight = 2
