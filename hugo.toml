@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://amalbyte.github.io/blog/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "hello-friend-ng"
@@ -23,7 +23,7 @@ series = "series"
 
   [languages.en.params.logo]
   logoText = "amalbyte"
-  logoHomeLink = "/"
+  logoHomeLink = "/blog/"
 
 [[menu.main]]
 identifier = "posts"
